@@ -98,12 +98,23 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
+
+  #init-images img {
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px; /* Adjust the value as needed */
+  }
+
+  img + img {
+    margin-left: 20px; /* Add margin between images */
+  }
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -111,13 +122,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #eabbc0;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #eabbc0 !important;
 			text-decoration: none;
 		}
 
@@ -135,13 +146,13 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #000000;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a {
 			color: inherit;
 			text-decoration: none;
 		}
@@ -2464,8 +2475,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #eabbc0;
+			color: #eabbc0 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2484,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #eabbc0;
+			color: #eabbc0 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2517,8 +2528,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #eabbc0;
+			border-color: #eabbc0;
 			color: #ffffff !important;
 		}
 
@@ -2526,16 +2537,16 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #eabbc0;
+				border-color: #eabbc0;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #eabbc0;
+				border-color: #eabbc0;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2572,7 +2583,7 @@ input, select, textarea {
 			margin: 0;
 		}
   
-  #one div img {
+  #one div .shadow {
       display: flex;
       width: 50%;
       max-width: 500px;
