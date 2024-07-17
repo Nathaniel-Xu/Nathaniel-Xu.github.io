@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-gray-500 underline hover:text-indigo-600;
+  }
+  p {
+    @apply max-w-prose sm:text-xl sm:leading-relaxed;
+  }
+}
+
+::selection {
+  background-color: #4f46e5;
+  color: #fefefe;
+}
