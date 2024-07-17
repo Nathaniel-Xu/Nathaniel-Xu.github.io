@@ -1,11 +1,11 @@
 {
-  "name": "jasonherngwang.com",
+  "name": "nathanielxu.com",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
   "author": {
-    "name": "jasonherngwang",
-    "url": "https://jasonherngwang.com"
+    "name": "nathanielxu",
+    "url": "https://nathanielxu.com"
   },
   "scripts": {
     "dev": "next dev",
