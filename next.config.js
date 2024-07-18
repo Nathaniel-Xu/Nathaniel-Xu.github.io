@@ -7,8 +7,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/Nathaniel-Xu.github.io' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Nathaniel-Xu.github.io/' : '',
+  basePath: '/Nathaniel-Xu.github.io',
+  assetPrefix: '/Nathaniel-Xu.github.io/',
+  outDir: 'docs',
+  exportTrailingSlash: true,
 }
 
 module.exports = nextConfig
