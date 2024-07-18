@@ -7,10 +7,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/Nathaniel-Xu.github.io',
-  assetPrefix: '/Nathaniel-Xu.github.io/',
-  outDir: 'docs',
-  exportTrailingSlash: true,
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
