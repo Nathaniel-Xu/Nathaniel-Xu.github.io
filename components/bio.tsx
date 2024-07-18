@@ -12,7 +12,7 @@ export default function Bio() {
       {/* Bio text */}
       <div className="flex flex-col gap-y-3 sm:mt-2 sm:gap-y-6">
         <p>
-        Full stack software engineer based in Falls Church, Virginia. 
+        Full stack software engineer based in Virginia. 
         </p>
         <p>
         Experienced in JavaScript, Golang, Python, Ruby, Node.js, React, AWS, Docker, DNS, Terraform, and PostgreSQL. 

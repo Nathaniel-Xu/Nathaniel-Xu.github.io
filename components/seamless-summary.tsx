@@ -23,7 +23,7 @@ export default function SeamlessSummary() {
       </div>
       <p className="mt-8">
         I created Mayfly, an open-source, low-config orchestration tool for hosting high compute/memory
-        web applications on AWS. It functions through an API that returns a link to an instance of your application. 
+        web applications on AWS. It functions through an API that returns a link to an instance of your application when called. 
         This instance automatically spins down when the session is over. It features a CLI for AWS deployment, a dashboard,
         automatic scheduling of docker containers, and a custom DNS server for routing.
       </p>
